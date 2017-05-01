@@ -6,7 +6,7 @@
     $resultuser = mysql_query($queryuser);
     $usuarios = [];
      while ($line = mysql_fetch_assoc($resultuser)) {
-        $usuarios[$line['iduser']] = $line['email'];
+        $usuarios[$line['id_usuario']] = $line['email'];
      }
     $query= "SELECT * FROM notas ORDER BY fecha DESC";
     $result = mysql_query($query);

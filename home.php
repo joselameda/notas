@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="imagenes/pasión.jpg" class="image-resposive" alt="...">
+      <img src="https://cdn.allwallpaper.in/wallpapers/1280x800/15653/alone-travel-1280x800-wallpaper.jpg" class="image-resposive" alt="...">
       <div class="carousel-caption">
         <h2>EN CUALQUIER SITIO QUE ESTES</h2>
       </div>

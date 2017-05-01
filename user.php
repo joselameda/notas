@@ -26,12 +26,12 @@
             if ($idverificado) {    
                 if($idverificado['email']=="administrador") 
                 { 
-                     $_SESSION['iduser'] = $idverificado['iduser']; 
+                     $_SESSION['iduser'] = $idverificado['id_usario']; 
                     $_SESSION['username'] = $idverificado['email'];
                     header("location:administrador.php"); 
                 }
                 else {
-                     $_SESSION['iduser'] = $idverificado['iduser']; 
+                     $_SESSION['iduser'] = $idverificado['id_usuario']; 
                     $_SESSION['username'] = $idverificado['email'];
                     header("location:index.php"); 
                 }                            
